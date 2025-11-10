@@ -1,13 +1,14 @@
 html,
 body {
-  height: 100%
+  height: 100%;
+  user-select: none;
 }
 
 
 
 img {
   max-width: 100%;
-  display: block
+  display: block;
 }
 
 
@@ -25,7 +26,7 @@ a {
 }
 
 
-/* NAV (no extra inner wrapper) */
+
 .nav {
   position: fixed;
   top: 0;
@@ -62,7 +63,7 @@ a {
   font-weight: 600
 }
 
-/* PAGE LAYOUT */
+
 .page {
   max-width: 1100px;
   margin: 110px auto 40px;
@@ -70,7 +71,7 @@ a {
 }
 
 
-/* HERO */
+
 .hero {
   text-align: center;
   margin-bottom: 36px
@@ -189,7 +190,7 @@ a {
   color: #6B3E26;
 }
 
-/* ABOUT image */
+
 .about-img {
   width: 100%;
   max-width: 800px;
@@ -199,7 +200,7 @@ a {
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.6);
 }
 
-/* MAP */
+
 .map img {
   width: 100%;
   max-width: 800px;
@@ -208,7 +209,7 @@ a {
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.6)
 }
 
-/* FOOTER */
+
 .site-footer {
   background: #F3E6C8;
   color: #6B3E26;
@@ -266,3 +267,4 @@ a {
   border-radius: 4px;
   cursor: pointer;
 }
+
